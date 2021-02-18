@@ -10,5 +10,7 @@ RUN npm ci --only=production
 ENV TIMEZONE "America/Denver"
 RUN ln -snf /usr/share/zoneinfo/$TIMEZONE /etc/localtime && echo $TIMEZONE > /etc/timezone
 
+ENV NODE_TLS_REJECT_UNAUTHORIZED="0"
+
 EXPOSE 3000
 CMD ["npm", "run", "dev"]
