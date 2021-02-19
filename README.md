@@ -9,7 +9,7 @@ Goals:
 - Assessment should take less than 2 hours to complete
 - When challenge is completed evaluators should be able to run `docker-compose up` on your project and after initial provisioning and set up the all challenges are completed and work as expected.
 
-#Challenges:
+# Challenges:
 
 ### Docker
 Assumptions:
